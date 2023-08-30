@@ -139,7 +139,8 @@ Note that all shutdown modes that can forcibly close programs will do so if nece
 ### usability
 ```
 here        - opens explorer in the current shell path
-cdd         - creates the directory and then cd's into it (cdd a\b\c\d will create the entire path)
+cdm         - creates the directory and then cd's into it (cdd a\b\c\d will create the entire path)
+cdd         - cd /d (for changing drive automatically if cd'ing into d:\path from c:\path)
 cp          - alias for copy
 ls          - alias for dir
 xc [args]   - alias for xcopy /C /R /E /Y [args], generates logs for stderr and stdout
